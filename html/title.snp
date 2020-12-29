@@ -1,0 +1,6 @@
+---
+scope: text,html
+description: HTML - Defines the document title
+---
+
+<title>$1</title>$2

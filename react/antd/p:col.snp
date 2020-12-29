@@ -1,0 +1,48 @@
+---
+scope: typescript,typescriptreact
+description: React Function Component
+---
+
+const handleEdit = (recordValues: any) => {
+    setModalVisible(true);
+    setRecord(recordValues);
+};
+
+const handleRemove = (id: number) => {
+    Modal.confirm({
+        title: '是否确认删除?',
+        icon: <ExclamationCircleOutlined />,
+        okText: '确认',
+        cancelText: '取消',
+        onOk: async () => {
+        },
+    });
+};
+
+const columns: ProColumns[] = [
+    {
+        dataIndex: 'index',
+        valueType: 'indexBorder',
+        key: 'index',
+        width: 48,
+    },
+    {
+        title: '$1',
+        dataIndex: '$2',
+        key: '$3',
+    },
+    {
+        title: '操作',
+        valueType: 'option',
+        render: (_, recordValues) => (
+            <Space size="middle">
+                <a key="edit" onClick={() => handleEdit(recordValues)}>
+                    编辑
+                </a>
+                <a key="delete" onClick={() => handleRemove(recordValues.id)}>
+                    删除
+                </a>
+            </Space>
+        ),
+    },
+];

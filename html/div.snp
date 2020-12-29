@@ -1,0 +1,8 @@
+---
+scope: text,html
+description: HTML - Defines a section in a document
+---
+
+<div>
+    $1
+</div>

@@ -4,7 +4,7 @@
  * @Github: https://github.com/daihy8759
  * @Date: 2020-12-26 16:12:29
  * @LastEditors: daihy
- * @LastEditTime: 2020-12-26 16:17:11
+ * @LastEditTime: 2020-12-28 15:56:19
 -->
 
 ### 安装 snp
@@ -28,4 +28,6 @@ $ snp -u
 
 ### Thanks
 
-[用 Code Snippet 提高开发效率（如何管理你的 Code Snippet）](https://www.v2ex.com/t/738966#reply2)
+-   [用 Code Snippet 提高开发效率（如何管理你的 Code Snippet）](https://www.v2ex.com/t/738966#reply2)
+
+-   [html-snippets](https://github.com/abusaidm/html-snippets)

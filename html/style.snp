@@ -1,0 +1,8 @@
+---
+scope: text,html
+description: HTML - Defines a style definition
+---
+
+<style>
+    $1
+</style>

@@ -1,0 +1,6 @@
+---
+scope: text,html
+description: HTML - Defines a hyperlink
+---
+
+<a href="$1">$2</a>$3
